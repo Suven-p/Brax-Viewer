@@ -2,6 +2,47 @@
     "config": {
         "bodies": [
             {
+                "name": "worldbody",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "sphere": {
+                            "radius": 0.01
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.00418879,
+                "frozen": {
+                    "position": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "all": true
+                }
+            },
+            {
                 "name": "root",
                 "colliders": [
                     {
@@ -11,7 +52,7 @@
                             "z": 0.0
                         },
                         "rotation": {
-                            "x": 0.0,
+                            "x": -0.0,
                             "y": -90.0,
                             "z": 0.0
                         },
@@ -54,8 +95,8 @@
                 "colliders": [
                     {
                         "position": {
-                            "x": 0,
-                            "y": 0,
+                            "x": 0.0509685,
+                            "y": -0.0459037,
                             "z": 0.024723
                         },
                         "rotation": {
@@ -1819,6 +1860,29 @@
             }
         ],
         "joints": [
+            {
+                "name": "$worldbody.root",
+                "stiffness": 5000.0,
+                "parent": "worldbody",
+                "child": "root",
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": 0.0,
+                        "max": 0.0
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
             {
                 "name": "$root.lhipjoint",
                 "stiffness": 5000.0,
@@ -4063,123 +4127,127 @@
         "baumgarteErp": 0.1,
         "collideInclude": [
             {
-                "first": "root",
+                "first": "worldbody",
+                "second": "root"
+            },
+            {
+                "first": "worldbody",
                 "second": "lhipjoint"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "lfemur"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "ltibia"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "lfoot"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "ltoes"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rhipjoint"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rfemur"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rtibia"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rfoot"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rtoes"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "lowerback"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "upperback"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "thorax"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "lowerneck"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "upperneck"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "head"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "lclavicle"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "lhumerus"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "lradius"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "lwrist"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "lhand"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "lfingers"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "lthumb"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rclavicle"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rhumerus"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rradius"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rwrist"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rhand"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rfingers"
             },
             {
-                "first": "root",
+                "first": "worldbody",
                 "second": "rthumb"
             },
             {
@@ -5909,7 +5977,12 @@
             [
                 0.0,
                 0.0,
-                0.0
+                0.10000000149011613
+            ],
+            [
+                0.0,
+                0.0,
+                0.10000000149011613
             ],
             [
                 0.0,
@@ -6070,6 +6143,12 @@
     ],
     "rot": [
         [
+            [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
             [
                 1.0,
                 0.0,
@@ -6264,6 +6343,5 @@
             ]
         ]
     ],
-    "debug": false,
-    "has_contact_debug": false
+    "debug": false
 }

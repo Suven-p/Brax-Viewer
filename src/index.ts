@@ -18,7 +18,7 @@ window.system = system;
 //             if (!collider.rotation) {
 //                 collider.rotation = { x: 0.0, y: 0.0, z: 0.0 };
 //             }
-//             collider.rotation.x += 90.0;
+//             // collider.rotation.x += 90.0;
 //             if (!collider.position) {
 //                 collider.position = { x: 0.0, y: 0.0, z: 0.0 };
 //             }
