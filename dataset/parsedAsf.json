@@ -1,0 +1,725 @@
+{
+    "root": {
+        "id": "0",
+        "name": "root",
+        "position": [
+            0,
+            0,
+            0
+        ],
+        "orientation": [
+            0,
+            0,
+            0
+        ],
+        "children": [
+            "lhipjoint",
+            "rhipjoint",
+            "lowerback"
+        ]
+    },
+    "lhipjoint": {
+        "id": "1",
+        "name": "lhipjoint",
+        "direction": [
+            "0.655637",
+            "-0.713449",
+            "0.247245"
+        ],
+        "length": "2.52691",
+        "axis": [
+            "0",
+            "0",
+            "0",
+            "XYZ"
+        ],
+        "parent": "root",
+        "children": [
+            "lfemur"
+        ]
+    },
+    "lfemur": {
+        "end": [],
+        "id": "2",
+        "name": "lfemur",
+        "direction": [
+            "0.34202",
+            "-0.939693",
+            "0"
+        ],
+        "length": "7.59371",
+        "axis": [
+            "0",
+            "0",
+            "20",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "ry",
+            "rz"
+        ],
+        "parent": "lhipjoint",
+        "children": [
+            "ltibia"
+        ]
+    },
+    "ltibia": {
+        "end": [],
+        "id": "3",
+        "name": "ltibia",
+        "direction": [
+            "0.34202",
+            "-0.939693",
+            "0"
+        ],
+        "length": "7.28717",
+        "axis": [
+            "0",
+            "0",
+            "20",
+            "XYZ"
+        ],
+        "dof": "rx",
+        "parent": "lfemur",
+        "children": [
+            "lfoot"
+        ]
+    },
+    "lfoot": {
+        "end": [],
+        "id": "4",
+        "name": "lfoot",
+        "direction": [
+            "0.0886837",
+            "-0.243657",
+            "0.965798"
+        ],
+        "length": "2.2218",
+        "axis": [
+            "-90",
+            "7.62852e-016",
+            "20",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "rz"
+        ],
+        "parent": "ltibia",
+        "children": [
+            "ltoes"
+        ]
+    },
+    "ltoes": {
+        "end": [],
+        "id": "5",
+        "name": "ltoes",
+        "direction": [
+            "1.53547e-011",
+            "-4.22004e-011",
+            "1"
+        ],
+        "length": "1.11249",
+        "axis": [
+            "-90",
+            "7.62852e-016",
+            "20",
+            "XYZ"
+        ],
+        "dof": "rx",
+        "parent": "lfoot"
+    },
+    "rhipjoint": {
+        "end": [],
+        "id": "6",
+        "name": "rhipjoint",
+        "direction": [
+            "-0.645062",
+            "-0.722004",
+            "0.250209"
+        ],
+        "length": "2.49697",
+        "axis": [
+            "0",
+            "0",
+            "0",
+            "XYZ"
+        ],
+        "parent": "root",
+        "children": [
+            "rfemur"
+        ]
+    },
+    "rfemur": {
+        "end": [],
+        "id": "7",
+        "name": "rfemur",
+        "direction": [
+            "-0.34202",
+            "-0.939693",
+            "0"
+        ],
+        "length": "7.58734",
+        "axis": [
+            "0",
+            "0",
+            "-20",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "ry",
+            "rz"
+        ],
+        "parent": "rhipjoint",
+        "children": [
+            "rtibia"
+        ]
+    },
+    "rtibia": {
+        "end": [],
+        "id": "8",
+        "name": "rtibia",
+        "direction": [
+            "-0.34202",
+            "-0.939693",
+            "0"
+        ],
+        "length": "7.21538",
+        "axis": [
+            "0",
+            "0",
+            "-20",
+            "XYZ"
+        ],
+        "dof": "rx",
+        "parent": "rfemur",
+        "children": [
+            "rfoot"
+        ]
+    },
+    "rfoot": {
+        "end": [],
+        "id": "9",
+        "name": "rfoot",
+        "direction": [
+            "-0.102907",
+            "-0.282735",
+            "0.953662"
+        ],
+        "length": "2.23735",
+        "axis": [
+            "-90",
+            "-7.62852e-016",
+            "-20",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "rz"
+        ],
+        "parent": "rtibia",
+        "children": [
+            "rtoes"
+        ]
+    },
+    "rtoes": {
+        "end": [],
+        "id": "10",
+        "name": "rtoes",
+        "direction": [
+            "-1.5354e-011",
+            "-4.21751e-011",
+            "1"
+        ],
+        "length": "1.11569",
+        "axis": [
+            "-90",
+            "-7.62852e-016",
+            "-20",
+            "XYZ"
+        ],
+        "dof": "rx",
+        "parent": "rfoot"
+    },
+    "lowerback": {
+        "end": [],
+        "id": "11",
+        "name": "lowerback",
+        "direction": [
+            "0.00952301",
+            "0.997604",
+            "-0.0685217"
+        ],
+        "length": "2.05943",
+        "axis": [
+            "0",
+            "0",
+            "0",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "ry",
+            "rz"
+        ],
+        "parent": "root",
+        "children": [
+            "upperback"
+        ]
+    },
+    "upperback": {
+        "end": [],
+        "id": "12",
+        "name": "upperback",
+        "direction": [
+            "0.00494399",
+            "0.999577",
+            "-0.0286701"
+        ],
+        "length": "2.06523",
+        "axis": [
+            "0",
+            "0",
+            "0",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "ry",
+            "rz"
+        ],
+        "parent": "lowerback",
+        "children": [
+            "thorax"
+        ]
+    },
+    "thorax": {
+        "end": [],
+        "id": "13",
+        "name": "thorax",
+        "direction": [
+            "0.000729686",
+            "0.999992",
+            "0.00388603"
+        ],
+        "length": "2.06807",
+        "axis": [
+            "0",
+            "0",
+            "0",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "ry",
+            "rz"
+        ],
+        "parent": "upperback",
+        "children": [
+            "lowerneck",
+            "lclavicle",
+            "rclavicle"
+        ]
+    },
+    "lowerneck": {
+        "end": [],
+        "id": "14",
+        "name": "lowerneck",
+        "direction": [
+            "0.00452882",
+            "0.995459",
+            "0.0950816"
+        ],
+        "length": "1.57426",
+        "axis": [
+            "0",
+            "0",
+            "0",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "ry",
+            "rz"
+        ],
+        "parent": "thorax",
+        "children": [
+            "upperneck"
+        ]
+    },
+    "upperneck": {
+        "end": [],
+        "id": "15",
+        "name": "upperneck",
+        "direction": [
+            "0.021922",
+            "0.997711",
+            "-0.0639762"
+        ],
+        "length": "1.56399",
+        "axis": [
+            "0",
+            "0",
+            "0",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "ry",
+            "rz"
+        ],
+        "parent": "lowerneck",
+        "children": [
+            "head"
+        ]
+    },
+    "head": {
+        "end": [],
+        "id": "16",
+        "name": "head",
+        "direction": [
+            "0.008024",
+            "0.999444",
+            "-0.0323691"
+        ],
+        "length": "1.6265",
+        "axis": [
+            "0",
+            "0",
+            "0",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "ry",
+            "rz"
+        ],
+        "parent": "upperneck"
+    },
+    "lclavicle": {
+        "end": [],
+        "id": "17",
+        "name": "lclavicle",
+        "direction": [
+            "0.967826",
+            "0.247107",
+            "-0.0474446"
+        ],
+        "length": "3.6598",
+        "axis": [
+            "0",
+            "0",
+            "0",
+            "XYZ"
+        ],
+        "dof": [
+            "ry",
+            "rz"
+        ],
+        "parent": "thorax",
+        "children": [
+            "lhumerus"
+        ]
+    },
+    "lhumerus": {
+        "end": [],
+        "id": "18",
+        "name": "lhumerus",
+        "direction": [
+            "1",
+            "-4.48971e-011",
+            "-2.90544e-027"
+        ],
+        "length": "4.86513",
+        "axis": [
+            "180",
+            "-30",
+            "-90",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "ry",
+            "rz"
+        ],
+        "parent": "lclavicle",
+        "children": [
+            "lradius"
+        ]
+    },
+    "lradius": {
+        "end": [],
+        "id": "19",
+        "name": "lradius",
+        "direction": [
+            "1",
+            "-4.48958e-011",
+            "1.79638e-026"
+        ],
+        "length": "3.35554",
+        "axis": [
+            "180",
+            "-30",
+            "-90",
+            "XYZ"
+        ],
+        "dof": "rx",
+        "parent": "lhumerus",
+        "children": [
+            "lwrist"
+        ]
+    },
+    "lwrist": {
+        "end": [],
+        "id": "20",
+        "name": "lwrist",
+        "direction": [
+            "1",
+            "-4.48952e-011",
+            "3.34345e-026"
+        ],
+        "length": "1.67777",
+        "axis": [
+            "-2.22354e-014",
+            "90",
+            "90",
+            "XYZ"
+        ],
+        "dof": "ry",
+        "parent": "lradius",
+        "children": [
+            "lhand",
+            "lthumb"
+        ]
+    },
+    "lhand": {
+        "end": [],
+        "id": "21",
+        "name": "lhand",
+        "direction": [
+            "1",
+            "-4.49055e-011",
+            "6.6869e-026"
+        ],
+        "length": "0.661175",
+        "axis": [
+            "-4.26681e-014",
+            "90",
+            "90",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "rz"
+        ],
+        "parent": "lwrist",
+        "children": [
+            "lfingers"
+        ]
+    },
+    "lfingers": {
+        "end": [],
+        "id": "22",
+        "name": "lfingers",
+        "direction": [
+            "1",
+            "-4.48731e-011",
+            "1.33738e-025"
+        ],
+        "length": "0.533057",
+        "axis": [
+            "-8.53362e-014",
+            "90",
+            "90",
+            "XYZ"
+        ],
+        "dof": "rx",
+        "parent": "lhand"
+    },
+    "lthumb": {
+        "end": [],
+        "id": "23",
+        "name": "lthumb",
+        "direction": [
+            "0.707107",
+            "-6.35005e-011",
+            "0.707107"
+        ],
+        "length": "0.765366",
+        "axis": [
+            "-90",
+            "45",
+            "2.85299e-015",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "rz"
+        ],
+        "parent": "lwrist"
+    },
+    "rclavicle": {
+        "end": [],
+        "id": "24",
+        "name": "rclavicle",
+        "direction": [
+            "-0.973174",
+            "0.211421",
+            "-0.0907389"
+        ],
+        "length": "3.59444",
+        "axis": [
+            "0",
+            "0",
+            "0",
+            "XYZ"
+        ],
+        "dof": [
+            "ry",
+            "rz"
+        ],
+        "parent": "thorax",
+        "children": [
+            "rhumerus"
+        ]
+    },
+    "rhumerus": {
+        "end": [],
+        "id": "25",
+        "name": "rhumerus",
+        "direction": [
+            "-1",
+            "-4.48964e-011",
+            "1.56311e-027"
+        ],
+        "length": "5.02649",
+        "axis": [
+            "180",
+            "30",
+            "90",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "ry",
+            "rz"
+        ],
+        "parent": "rclavicle",
+        "children": [
+            "rradius"
+        ]
+    },
+    "rradius": {
+        "end": [],
+        "id": "26",
+        "name": "rradius",
+        "direction": [
+            "-1",
+            "-4.48948e-011",
+            "2.01724e-026"
+        ],
+        "length": "3.36431",
+        "axis": [
+            "180",
+            "30",
+            "90",
+            "XYZ"
+        ],
+        "dof": "rx",
+        "parent": "rhumerus",
+        "children": [
+            "rwrist"
+        ]
+    },
+    "rwrist": {
+        "end": [],
+        "id": "27",
+        "name": "rwrist",
+        "direction": [
+            "-1",
+            "-4.49008e-011",
+            "3.34345e-026"
+        ],
+        "length": "1.68216",
+        "axis": [
+            "-2.22354e-014",
+            "-90",
+            "-90",
+            "XYZ"
+        ],
+        "dof": "ry",
+        "parent": "rradius",
+        "children": [
+            "rhand",
+            "rthumb"
+        ]
+    },
+    "rhand": {
+        "end": [],
+        "id": "28",
+        "name": "rhand",
+        "direction": [
+            "-1",
+            "-4.49013e-011",
+            "6.6869e-026"
+        ],
+        "length": "0.730406",
+        "axis": [
+            "-4.26681e-014",
+            "-90",
+            "-90",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "rz"
+        ],
+        "parent": "rwrist",
+        "children": [
+            "rfingers"
+        ]
+    },
+    "rfingers": {
+        "end": [],
+        "id": "29",
+        "name": "rfingers",
+        "direction": [
+            "-1",
+            "-4.48867e-011",
+            "1.33738e-025"
+        ],
+        "length": "0.588872",
+        "axis": [
+            "-8.53362e-014",
+            "-90",
+            "-90",
+            "XYZ"
+        ],
+        "dof": "rx",
+        "parent": "rhand"
+    },
+    "rthumb": {
+        "end": [],
+        "id": "30",
+        "name": "rthumb",
+        "direction": [
+            "-0.707107",
+            "-6.34907e-011",
+            "0.707107"
+        ],
+        "length": "0.845506",
+        "axis": [
+            "-90",
+            "-45",
+            "-2.85299e-015",
+            "XYZ"
+        ],
+        "dof": [
+            "rx",
+            "rz"
+        ],
+        "parent": "rwrist"
+    }
+}

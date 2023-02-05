@@ -1,0 +1,6269 @@
+{
+    "config": {
+        "bodies": [
+            {
+                "name": "root",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.05,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": -90.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.1,
+                            "length": 0.34,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 8.58702,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lhipjoint",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0.024723
+                        },
+                        "rotation": {
+                            "x": -118.30627,
+                            "y": -42.71965,
+                            "z": -66.43646
+                        },
+                        "capsule": {
+                            "radius": 0.008,
+                            "length": 0.05974726,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.010940569,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lfemur",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.115473,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "z": -20.000038,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.085,
+                            "length": 0.336,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "y": -0.202473,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "z": -20.000038,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.07,
+                            "length": 0.504452,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 13.387368,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "ltibia",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.202846,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "z": -20.000038,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.04,
+                            "length": 0.4451228,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 2.10339,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lfoot",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": -0.026999997,
+                            "y": -0.05,
+                            "z": -0.0113878
+                        },
+                        "rotation": {
+                            "x": -79.69992,
+                            "y": 3.7234762,
+                            "z": -0.3357849
+                        },
+                        "capsule": {
+                            "radius": 0.025,
+                            "length": 0.21,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": 0.027000003,
+                            "y": -0.05,
+                            "z": -0.0113878
+                        },
+                        "rotation": {
+                            "x": -79.69994,
+                            "y": -3.72354,
+                            "z": -39.664368
+                        },
+                        "capsule": {
+                            "radius": 0.025,
+                            "length": 0.21,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.7592182,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "ltoes",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.01,
+                            "z": -0.01,
+                            "x": 0.0
+                        },
+                        "sphere": {
+                            "radius": 0.025
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": 0.03,
+                            "y": -0.01,
+                            "z": -0.01
+                        },
+                        "sphere": {
+                            "radius": 0.025
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": -0.03,
+                            "y": -0.01,
+                            "z": -0.01
+                        },
+                        "sphere": {
+                            "radius": 0.025
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.19634955,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rhipjoint",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": -0.0509685,
+                            "y": -0.0459037,
+                            "z": 0.024723
+                        },
+                        "rotation": {
+                            "x": -118.306305,
+                            "y": 44.350132,
+                            "z": 68.624
+                        },
+                        "capsule": {
+                            "radius": 0.008,
+                            "length": 0.05974726,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.010940569,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rfemur",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.115473,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "z": 20.000038,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.085,
+                            "length": 0.336,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "y": -0.202473,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "z": 20.000038,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.07,
+                            "length": 0.504452,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 13.387368,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rtibia",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.202846,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "z": 20.000038,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.04,
+                            "length": 0.4451228,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 2.10339,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rfoot",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": -0.026999997,
+                            "y": -0.05,
+                            "z": -0.0113878
+                        },
+                        "rotation": {
+                            "x": -78.624016,
+                            "y": 4.106348,
+                            "z": 39.59082
+                        },
+                        "capsule": {
+                            "radius": 0.025,
+                            "length": 0.21,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": 0.027000003,
+                            "y": -0.05,
+                            "z": -0.0113878
+                        },
+                        "rotation": {
+                            "x": -78.624,
+                            "y": -4.106305,
+                            "z": 0.40916047
+                        },
+                        "capsule": {
+                            "radius": 0.025,
+                            "length": 0.21,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.7592182,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rtoes",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.01,
+                            "z": -0.01,
+                            "x": 0.0
+                        },
+                        "sphere": {
+                            "radius": 0.025
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": 0.03,
+                            "y": -0.01,
+                            "z": -0.01
+                        },
+                        "sphere": {
+                            "radius": 0.025
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": -0.03,
+                            "y": -0.01,
+                            "z": -0.01
+                        },
+                        "sphere": {
+                            "radius": 0.025
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.19634955,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lowerback",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": 0.00282931,
+                            "y": 0.0566065,
+                            "z": 0.01
+                        },
+                        "rotation": {
+                            "x": -0.0,
+                            "y": 90.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.085,
+                            "length": 0.26080033,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 4.633427,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "upperback",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": 0.000256264,
+                            "y": 0.0567802,
+                            "z": 0.02
+                        },
+                        "rotation": {
+                            "x": -0.0,
+                            "y": 90.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.09,
+                            "length": 0.27085233,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 5.365538,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "thorax",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": 0.0569725,
+                            "z": 0.02,
+                            "x": 0.0
+                        },
+                        "rotation": {
+                            "x": -0.0,
+                            "y": 90.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.095,
+                            "length": 0.3040412,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 6.82476,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lowerneck",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": -0.00165071,
+                            "y": 0.0452401,
+                            "z": 0.00534359
+                        },
+                        "rotation": {
+                            "x": 90.0,
+                            "z": -0.0,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.075,
+                            "length": 0.1955845,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 2.5726905,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "upperneck",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": 0.000500875,
+                            "y": 0.0449956,
+                            "z": -0.00224644
+                        },
+                        "rotation": {
+                            "x": 90.0,
+                            "z": -0.0,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.05,
+                            "length": 0.1450544,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.87745523,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "head",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": 0.000341465,
+                            "y": 0.048184,
+                            "z": 0.025
+                        },
+                        "rotation": {
+                            "x": 90.0,
+                            "z": -0.0,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.095,
+                            "length": 0.238208,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 4.9581995,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lclavicle",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": 0.0918817,
+                            "y": 0.0382636,
+                            "z": 0.00535704
+                        },
+                        "rotation": {
+                            "x": 97.918434,
+                            "y": -67.19682,
+                            "z": 74.69879
+                        },
+                        "capsule": {
+                            "radius": 0.075,
+                            "length": 0.27,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 3.8877208,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lhumerus",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.138421,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "z": 59.99998,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.042,
+                            "length": 0.3331578,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 1.6911142,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lradius",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.0907679,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "z": 59.99998,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.03,
+                            "length": 0.22338222,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.5750497,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lwrist",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.03,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": -8.102844e-15,
+                            "z": -180.0
+                        },
+                        "capsule": {
+                            "radius": 0.02,
+                            "length": 0.1,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.10890855,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lhand",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.016752,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": -0.0,
+                            "z": -180.0
+                        },
+                        "capsule": {
+                            "radius": 0.02,
+                            "length": 0.13,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.14660765,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lfingers",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": -0.024,
+                            "y": -0.025,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.0065,
+                            "length": 0.093,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": -0.008,
+                            "y": -0.03,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.0065,
+                            "length": 0.093,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": 0.008,
+                            "y": -0.03,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.006,
+                            "length": 0.092,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": 0.024,
+                            "y": -0.025,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.0055,
+                            "length": 0.091,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.041789986,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "lthumb",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.03,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": -0.0,
+                            "z": -180.0
+                        },
+                        "capsule": {
+                            "radius": 0.008,
+                            "length": 0.076,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.014208376,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rclavicle",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": -0.0918817,
+                            "y": 0.0382636,
+                            "z": 0.00535704
+                        },
+                        "rotation": {
+                            "x": 97.918434,
+                            "y": 67.19682,
+                            "z": -74.69879
+                        },
+                        "capsule": {
+                            "radius": 0.075,
+                            "length": 0.27,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 3.8877208,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rhumerus",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.138421,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "z": -59.99998,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.042,
+                            "length": 0.3331578,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 1.6911142,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rradius",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.0907679,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -89.99996,
+                            "y": -0.0012363585,
+                            "z": -59.998886
+                        },
+                        "capsule": {
+                            "radius": 0.03,
+                            "length": 0.22338222,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.5750497,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rwrist",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.03,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "z": -180.0,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.02,
+                            "length": 0.1,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.10890855,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rhand",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.016752,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "z": -180.0,
+                            "y": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.02,
+                            "length": 0.13,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.14660765,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rfingers",
+                "colliders": [
+                    {
+                        "position": {
+                            "x": 0.024,
+                            "y": -0.025,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.0065,
+                            "length": 0.093,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": 0.008,
+                            "y": -0.03,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.0065,
+                            "length": 0.093,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": -0.008,
+                            "y": -0.03,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.006,
+                            "length": 0.092,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    },
+                    {
+                        "position": {
+                            "x": -0.024,
+                            "y": -0.025,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "capsule": {
+                            "radius": 0.0055,
+                            "length": 0.091,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.041789986,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "rthumb",
+                "colliders": [
+                    {
+                        "position": {
+                            "y": -0.03,
+                            "x": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": -90.0,
+                            "y": -1.0947753e-10,
+                            "z": 180.0
+                        },
+                        "capsule": {
+                            "radius": 0.008,
+                            "length": 0.076,
+                            "end": 0
+                        },
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 0.014208376,
+                "frozen": {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "all": false
+                }
+            },
+            {
+                "name": "floor",
+                "colliders": [
+                    {
+                        "plane": {},
+                        "material": {
+                            "friction": 1.0,
+                            "elasticity": 0.0
+                        },
+                        "color": "",
+                        "hidden": false,
+                        "noContact": false
+                    }
+                ],
+                "inertia": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "mass": 1.0,
+                "frozen": {
+                    "position": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "all": true
+                }
+            }
+        ],
+        "joints": [
+            {
+                "name": "$root.lhipjoint",
+                "stiffness": 5000.0,
+                "parent": "root",
+                "child": "lhipjoint",
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": 0.0,
+                        "max": 0.0
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lfemurrz",
+                "stiffness": 1.0,
+                "parent": "lhipjoint",
+                "child": "lfemur",
+                "parentOffset": {
+                    "x": 0.101937,
+                    "y": -0.0918074,
+                    "z": 0.0494461
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.0472,
+                        "max": 1.22173
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": 19.999975,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lfemurry",
+                "stiffness": 1.0,
+                "parent": "lhipjoint",
+                "child": "lfemur",
+                "parentOffset": {
+                    "x": 0.101937,
+                    "y": -0.0918074,
+                    "z": 0.0494461
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.22173,
+                        "max": 1.22173
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": 19.999975,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lfemurrx",
+                "stiffness": 1.0,
+                "parent": "lhipjoint",
+                "child": "lfemur",
+                "parentOffset": {
+                    "x": 0.101937,
+                    "y": -0.0918074,
+                    "z": 0.0494461
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -2.79253,
+                        "max": 0.349066
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": 19.999975,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "ltibiarx",
+                "stiffness": 1.0,
+                "parent": "lfemur",
+                "child": "ltibia",
+                "parentOffset": {
+                    "y": -0.404945,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": 0.01,
+                        "max": 2.96706
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lfootrz",
+                "stiffness": 1.0,
+                "parent": "ltibia",
+                "child": "lfoot",
+                "parentOffset": {
+                    "y": -0.415693,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.22173,
+                        "max": 0.349066
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lfootrx",
+                "stiffness": 1.0,
+                "parent": "ltibia",
+                "child": "lfoot",
+                "parentOffset": {
+                    "y": -0.415693,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.785398,
+                        "max": 0.8
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "ltoesrx",
+                "stiffness": 1.0,
+                "parent": "lfoot",
+                "child": "ltoes",
+                "parentOffset": {
+                    "y": -0.156372,
+                    "z": -0.0227756,
+                    "x": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.5708,
+                        "max": 0.349066
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "$root.rhipjoint",
+                "stiffness": 5000.0,
+                "parent": "root",
+                "child": "rhipjoint",
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": 0.0,
+                        "max": 0.0
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rfemurrz",
+                "stiffness": 1.0,
+                "parent": "rhipjoint",
+                "child": "rfemur",
+                "parentOffset": {
+                    "x": -0.101937,
+                    "y": -0.0918074,
+                    "z": 0.0494461
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.22173,
+                        "max": 1.0472
+                    }
+                ],
+                "referenceRotation": {
+                    "z": -19.999975,
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rfemurry",
+                "stiffness": 1.0,
+                "parent": "rhipjoint",
+                "child": "rfemur",
+                "parentOffset": {
+                    "x": -0.101937,
+                    "y": -0.0918074,
+                    "z": 0.0494461
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.22173,
+                        "max": 1.22173
+                    }
+                ],
+                "referenceRotation": {
+                    "z": -19.999975,
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rfemurrx",
+                "stiffness": 1.0,
+                "parent": "rhipjoint",
+                "child": "rfemur",
+                "parentOffset": {
+                    "x": -0.101937,
+                    "y": -0.0918074,
+                    "z": 0.0494461
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -2.79253,
+                        "max": 0.349066
+                    }
+                ],
+                "referenceRotation": {
+                    "z": -19.999975,
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rtibiarx",
+                "stiffness": 1.0,
+                "parent": "rfemur",
+                "child": "rtibia",
+                "parentOffset": {
+                    "y": -0.404945,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": 0.01,
+                        "max": 2.96706
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rfootrz",
+                "stiffness": 1.0,
+                "parent": "rtibia",
+                "child": "rfoot",
+                "parentOffset": {
+                    "y": -0.415693,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.349066,
+                        "max": 1.22173
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rfootrx",
+                "stiffness": 1.0,
+                "parent": "rtibia",
+                "child": "rfoot",
+                "parentOffset": {
+                    "y": -0.415693,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.785398,
+                        "max": 0.8
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -90.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rtoesrx",
+                "stiffness": 1.0,
+                "parent": "rfoot",
+                "child": "rtoes",
+                "parentOffset": {
+                    "y": -0.156372,
+                    "z": -0.0227756,
+                    "x": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.5708,
+                        "max": 0.349066
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lowerbackrz",
+                "stiffness": 1.0,
+                "parent": "root",
+                "child": "lowerback",
+                "parentOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lowerbackry",
+                "stiffness": 1.0,
+                "parent": "root",
+                "child": "lowerback",
+                "parentOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lowerbackrx",
+                "stiffness": 1.0,
+                "parent": "root",
+                "child": "lowerback",
+                "parentOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.349066,
+                        "max": 0.785398
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "upperbackrz",
+                "stiffness": 1.0,
+                "parent": "lowerback",
+                "child": "upperback",
+                "parentOffset": {
+                    "x": 0.000565862,
+                    "y": 0.113213,
+                    "z": -0.00805298
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "upperbackry",
+                "stiffness": 1.0,
+                "parent": "lowerback",
+                "child": "upperback",
+                "parentOffset": {
+                    "x": 0.000565862,
+                    "y": 0.113213,
+                    "z": -0.00805298
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "upperbackrx",
+                "stiffness": 1.0,
+                "parent": "lowerback",
+                "child": "upperback",
+                "parentOffset": {
+                    "x": 0.000565862,
+                    "y": 0.113213,
+                    "z": -0.00805298
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.349066,
+                        "max": 0.785398
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "thoraxrz",
+                "stiffness": 1.0,
+                "parent": "upperback",
+                "child": "thorax",
+                "parentOffset": {
+                    "x": 0.000512528,
+                    "y": 0.11356,
+                    "z": 0.000936821
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "thoraxry",
+                "stiffness": 1.0,
+                "parent": "upperback",
+                "child": "thorax",
+                "parentOffset": {
+                    "x": 0.000512528,
+                    "y": 0.11356,
+                    "z": 0.000936821
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "thoraxrx",
+                "stiffness": 1.0,
+                "parent": "upperback",
+                "child": "thorax",
+                "parentOffset": {
+                    "x": 0.000512528,
+                    "y": 0.11356,
+                    "z": 0.000936821
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.349066,
+                        "max": 0.785398
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lowerneckrz",
+                "stiffness": 1.0,
+                "parent": "thorax",
+                "child": "lowerneck",
+                "parentOffset": {
+                    "y": 0.113945,
+                    "z": 0.00468037,
+                    "x": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lowerneckry",
+                "stiffness": 1.0,
+                "parent": "thorax",
+                "child": "lowerneck",
+                "parentOffset": {
+                    "y": 0.113945,
+                    "z": 0.00468037,
+                    "x": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lowerneckrx",
+                "stiffness": 1.0,
+                "parent": "thorax",
+                "child": "lowerneck",
+                "parentOffset": {
+                    "y": 0.113945,
+                    "z": 0.00468037,
+                    "x": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.349066,
+                        "max": 0.785398
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "upperneckrz",
+                "stiffness": 1.0,
+                "parent": "lowerneck",
+                "child": "upperneck",
+                "parentOffset": {
+                    "x": -0.00330143,
+                    "y": 0.0904801,
+                    "z": 0.0106872
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "upperneckry",
+                "stiffness": 1.0,
+                "parent": "lowerneck",
+                "child": "upperneck",
+                "parentOffset": {
+                    "x": -0.00330143,
+                    "y": 0.0904801,
+                    "z": 0.0106872
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "upperneckrx",
+                "stiffness": 1.0,
+                "parent": "lowerneck",
+                "child": "upperneck",
+                "parentOffset": {
+                    "x": -0.00330143,
+                    "y": 0.0904801,
+                    "z": 0.0106872
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.349066,
+                        "max": 0.785398
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "headrz",
+                "stiffness": 1.0,
+                "parent": "upperneck",
+                "child": "head",
+                "parentOffset": {
+                    "x": 0.00100175,
+                    "y": 0.13,
+                    "z": -0.00449288
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "headry",
+                "stiffness": 1.0,
+                "parent": "upperneck",
+                "child": "head",
+                "parentOffset": {
+                    "x": 0.00100175,
+                    "y": 0.13,
+                    "z": -0.00449288
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.523599,
+                        "max": 0.523599
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "headrx",
+                "stiffness": 1.0,
+                "parent": "upperneck",
+                "child": "head",
+                "parentOffset": {
+                    "x": 0.00100175,
+                    "y": 0.13,
+                    "z": -0.00449288
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.349066,
+                        "max": 0.785398
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lclaviclerz",
+                "stiffness": 1.0,
+                "parent": "thorax",
+                "child": "lclavicle",
+                "parentOffset": {
+                    "y": 0.113945,
+                    "z": 0.00468037,
+                    "x": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "max": 0.349066,
+                        "min": 0.0
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lclaviclery",
+                "stiffness": 1.0,
+                "parent": "thorax",
+                "child": "lclavicle",
+                "parentOffset": {
+                    "y": 0.113945,
+                    "z": 0.00468037,
+                    "x": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.349066,
+                        "max": 0.174533
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lhumerusrz",
+                "stiffness": 1.0,
+                "parent": "lclavicle",
+                "child": "lhumerus",
+                "parentOffset": {
+                    "x": 0.18,
+                    "y": 0.09,
+                    "z": 0.0107141
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.1,
+                        "max": 1.5708
+                    }
+                ],
+                "referenceRotation": {
+                    "x": 149.99997,
+                    "y": 3.1805547e-15,
+                    "z": 90.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lhumerusry",
+                "stiffness": 1.0,
+                "parent": "lclavicle",
+                "child": "lhumerus",
+                "parentOffset": {
+                    "x": 0.18,
+                    "y": 0.09,
+                    "z": 0.0107141
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.5708,
+                        "max": 1.5708
+                    }
+                ],
+                "referenceRotation": {
+                    "x": 149.99997,
+                    "y": 3.1805547e-15,
+                    "z": 90.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lhumerusrx",
+                "stiffness": 1.0,
+                "parent": "lclavicle",
+                "child": "lhumerus",
+                "parentOffset": {
+                    "x": 0.18,
+                    "y": 0.09,
+                    "z": 0.0107141
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.0472,
+                        "max": 1.5708
+                    }
+                ],
+                "referenceRotation": {
+                    "x": 149.99997,
+                    "y": 3.1805547e-15,
+                    "z": 90.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lradiusrx",
+                "stiffness": 1.0,
+                "parent": "lhumerus",
+                "child": "lradius",
+                "parentOffset": {
+                    "y": -0.276843,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.174533,
+                        "max": 2.96706
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lwristry",
+                "stiffness": 1.0,
+                "parent": "lradius",
+                "child": "lwrist",
+                "parentOffset": {
+                    "y": -0.181536,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "max": 3.14159,
+                        "min": 0.0
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -180.0,
+                    "y": -60.000023,
+                    "z": -180.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lhandrz",
+                "stiffness": 1.0,
+                "parent": "lwrist",
+                "child": "lhand",
+                "parentOffset": {
+                    "y": -0.0907676,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.785398,
+                        "max": 0.785398
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lhandrx",
+                "stiffness": 1.0,
+                "parent": "lwrist",
+                "child": "lhand",
+                "parentOffset": {
+                    "y": -0.0907676,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.5708,
+                        "max": 1.5708
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lfingersrx",
+                "stiffness": 1.0,
+                "parent": "lhand",
+                "child": "lfingers",
+                "parentOffset": {
+                    "y": -0.06,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "y": 0.015,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "max": 1.5708,
+                        "min": 0.0
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lthumbrz",
+                "stiffness": 1.0,
+                "parent": "lhand",
+                "child": "lthumb",
+                "parentOffset": {
+                    "x": -0.025,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.785398,
+                        "max": 0.785398
+                    }
+                ],
+                "referenceRotation": {
+                    "z": -44.999935,
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "lthumbrx",
+                "stiffness": 1.0,
+                "parent": "lhand",
+                "child": "lthumb",
+                "parentOffset": {
+                    "x": -0.025,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "max": 1.57,
+                        "min": 0.0
+                    }
+                ],
+                "referenceRotation": {
+                    "z": -44.999935,
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rclaviclerz",
+                "stiffness": 1.0,
+                "parent": "thorax",
+                "child": "rclavicle",
+                "parentOffset": {
+                    "y": 0.113945,
+                    "z": 0.00468037,
+                    "x": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.349066,
+                        "max": 0.0
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rclaviclery",
+                "stiffness": 1.0,
+                "parent": "thorax",
+                "child": "rclavicle",
+                "parentOffset": {
+                    "y": 0.113945,
+                    "z": 0.00468037,
+                    "x": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.174533,
+                        "max": 0.349066
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rhumerusrz",
+                "stiffness": 1.0,
+                "parent": "rclavicle",
+                "child": "rhumerus",
+                "parentOffset": {
+                    "x": -0.18,
+                    "y": 0.09,
+                    "z": 0.0107141
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.1,
+                        "max": 1.5708
+                    }
+                ],
+                "referenceRotation": {
+                    "x": 149.99997,
+                    "y": -3.1805547e-15,
+                    "z": -90.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rhumerusry",
+                "stiffness": 1.0,
+                "parent": "rclavicle",
+                "child": "rhumerus",
+                "parentOffset": {
+                    "x": -0.18,
+                    "y": 0.09,
+                    "z": 0.0107141
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.5708,
+                        "max": 1.5708
+                    }
+                ],
+                "referenceRotation": {
+                    "x": 149.99997,
+                    "y": -3.1805547e-15,
+                    "z": -90.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rhumerusrx",
+                "stiffness": 1.0,
+                "parent": "rclavicle",
+                "child": "rhumerus",
+                "parentOffset": {
+                    "x": -0.18,
+                    "y": 0.09,
+                    "z": 0.0107141
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.0472,
+                        "max": 1.5708
+                    }
+                ],
+                "referenceRotation": {
+                    "x": 149.99997,
+                    "y": -3.1805547e-15,
+                    "z": -90.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rradiusrx",
+                "stiffness": 1.0,
+                "parent": "rhumerus",
+                "child": "rradius",
+                "parentOffset": {
+                    "y": -0.276843,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.174533,
+                        "max": 2.96706
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rwristry",
+                "stiffness": 1.0,
+                "parent": "rradius",
+                "child": "rwrist",
+                "parentOffset": {
+                    "y": -0.181536,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": 90.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -3.14159,
+                        "max": 0.0
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -180.0,
+                    "y": 60.000023,
+                    "z": -180.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rhandrz",
+                "stiffness": 1.0,
+                "parent": "rwrist",
+                "child": "rhand",
+                "parentOffset": {
+                    "y": -0.0907676,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.785398,
+                        "max": 0.785398
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rhandrx",
+                "stiffness": 1.0,
+                "parent": "rwrist",
+                "child": "rhand",
+                "parentOffset": {
+                    "y": -0.0907676,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -1.5708,
+                        "max": 1.5708
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rfingersrx",
+                "stiffness": 1.0,
+                "parent": "rhand",
+                "child": "rfingers",
+                "parentOffset": {
+                    "y": -0.06,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "y": 0.015,
+                    "x": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "max": 1.5708,
+                        "min": 0.0
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rthumbrz",
+                "stiffness": 1.0,
+                "parent": "rhand",
+                "child": "rthumb",
+                "parentOffset": {
+                    "x": 0.025,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "y": -90.0,
+                    "z": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "min": -0.785398,
+                        "max": 0.785398
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": 44.999935,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            },
+            {
+                "name": "rthumbrx",
+                "stiffness": 1.0,
+                "parent": "rhand",
+                "child": "rthumb",
+                "parentOffset": {
+                    "x": 0.025,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "childOffset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": -0.0,
+                    "z": -0.0,
+                    "y": 0.0
+                },
+                "angleLimit": [
+                    {
+                        "max": 1.57,
+                        "min": 0.0
+                    }
+                ],
+                "referenceRotation": {
+                    "x": -0.0,
+                    "z": 44.999935,
+                    "y": 0.0
+                },
+                "angularDamping": 0.0
+            }
+        ],
+        "actuators": [
+            {
+                "name": "headrx",
+                "joint": "headrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "headry",
+                "joint": "headry",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "headrz",
+                "joint": "headrz",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lclaviclery",
+                "joint": "lclaviclery",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lclaviclerz",
+                "joint": "lclaviclerz",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lfemurrx",
+                "joint": "lfemurrx",
+                "strength": 120.0,
+                "angle": {}
+            },
+            {
+                "name": "lfemurry",
+                "joint": "lfemurry",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "lfemurrz",
+                "joint": "lfemurrz",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "lfingersrx",
+                "joint": "lfingersrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lfootrx",
+                "joint": "lfootrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lfootrz",
+                "joint": "lfootrz",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lhandrx",
+                "joint": "lhandrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lhandrz",
+                "joint": "lhandrz",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lhumerusrx",
+                "joint": "lhumerusrx",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "lhumerusry",
+                "joint": "lhumerusry",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "lhumerusrz",
+                "joint": "lhumerusrz",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "lowerbackrx",
+                "joint": "lowerbackrx",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "lowerbackry",
+                "joint": "lowerbackry",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "lowerbackrz",
+                "joint": "lowerbackrz",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "lowerneckrx",
+                "joint": "lowerneckrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lowerneckry",
+                "joint": "lowerneckry",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lowerneckrz",
+                "joint": "lowerneckrz",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lradiusrx",
+                "joint": "lradiusrx",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "lthumbrx",
+                "joint": "lthumbrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lthumbrz",
+                "joint": "lthumbrz",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "ltibiarx",
+                "joint": "ltibiarx",
+                "strength": 80.0,
+                "angle": {}
+            },
+            {
+                "name": "ltoesrx",
+                "joint": "ltoesrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "lwristry",
+                "joint": "lwristry",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "rclaviclery",
+                "joint": "rclaviclery",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "rclaviclerz",
+                "joint": "rclaviclerz",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "rfemurrx",
+                "joint": "rfemurrx",
+                "strength": 120.0,
+                "angle": {}
+            },
+            {
+                "name": "rfemurry",
+                "joint": "rfemurry",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "rfemurrz",
+                "joint": "rfemurrz",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "rfingersrx",
+                "joint": "rfingersrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "rfootrx",
+                "joint": "rfootrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "rfootrz",
+                "joint": "rfootrz",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "rhandrx",
+                "joint": "rhandrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "rhandrz",
+                "joint": "rhandrz",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "rhumerusrx",
+                "joint": "rhumerusrx",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "rhumerusry",
+                "joint": "rhumerusry",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "rhumerusrz",
+                "joint": "rhumerusrz",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "rradiusrx",
+                "joint": "rradiusrx",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "rthumbrx",
+                "joint": "rthumbrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "rthumbrz",
+                "joint": "rthumbrz",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "rtibiarx",
+                "joint": "rtibiarx",
+                "strength": 80.0,
+                "angle": {}
+            },
+            {
+                "name": "rtoesrx",
+                "joint": "rtoesrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "rwristry",
+                "joint": "rwristry",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "thoraxrx",
+                "joint": "thoraxrx",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "thoraxry",
+                "joint": "thoraxry",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "thoraxrz",
+                "joint": "thoraxrz",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "upperbackrx",
+                "joint": "upperbackrx",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "upperbackry",
+                "joint": "upperbackry",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "upperbackrz",
+                "joint": "upperbackrz",
+                "strength": 40.0,
+                "angle": {}
+            },
+            {
+                "name": "upperneckrx",
+                "joint": "upperneckrx",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "upperneckry",
+                "joint": "upperneckry",
+                "strength": 20.0,
+                "angle": {}
+            },
+            {
+                "name": "upperneckrz",
+                "joint": "upperneckrz",
+                "strength": 20.0,
+                "angle": {}
+            }
+        ],
+        "friction": 1.0,
+        "gravity": {
+            "z": -9.81,
+            "x": 0.0,
+            "y": 0.0
+        },
+        "velocityDamping": 1.0,
+        "angularDamping": -0.05,
+        "baumgarteErp": 0.1,
+        "collideInclude": [
+            {
+                "first": "root",
+                "second": "lhipjoint"
+            },
+            {
+                "first": "root",
+                "second": "lfemur"
+            },
+            {
+                "first": "root",
+                "second": "ltibia"
+            },
+            {
+                "first": "root",
+                "second": "lfoot"
+            },
+            {
+                "first": "root",
+                "second": "ltoes"
+            },
+            {
+                "first": "root",
+                "second": "rhipjoint"
+            },
+            {
+                "first": "root",
+                "second": "rfemur"
+            },
+            {
+                "first": "root",
+                "second": "rtibia"
+            },
+            {
+                "first": "root",
+                "second": "rfoot"
+            },
+            {
+                "first": "root",
+                "second": "rtoes"
+            },
+            {
+                "first": "root",
+                "second": "lowerback"
+            },
+            {
+                "first": "root",
+                "second": "upperback"
+            },
+            {
+                "first": "root",
+                "second": "thorax"
+            },
+            {
+                "first": "root",
+                "second": "lowerneck"
+            },
+            {
+                "first": "root",
+                "second": "upperneck"
+            },
+            {
+                "first": "root",
+                "second": "head"
+            },
+            {
+                "first": "root",
+                "second": "lclavicle"
+            },
+            {
+                "first": "root",
+                "second": "lhumerus"
+            },
+            {
+                "first": "root",
+                "second": "lradius"
+            },
+            {
+                "first": "root",
+                "second": "lwrist"
+            },
+            {
+                "first": "root",
+                "second": "lhand"
+            },
+            {
+                "first": "root",
+                "second": "lfingers"
+            },
+            {
+                "first": "root",
+                "second": "lthumb"
+            },
+            {
+                "first": "root",
+                "second": "rclavicle"
+            },
+            {
+                "first": "root",
+                "second": "rhumerus"
+            },
+            {
+                "first": "root",
+                "second": "rradius"
+            },
+            {
+                "first": "root",
+                "second": "rwrist"
+            },
+            {
+                "first": "root",
+                "second": "rhand"
+            },
+            {
+                "first": "root",
+                "second": "rfingers"
+            },
+            {
+                "first": "root",
+                "second": "rthumb"
+            },
+            {
+                "first": "root",
+                "second": "lfemur"
+            },
+            {
+                "first": "root",
+                "second": "ltibia"
+            },
+            {
+                "first": "root",
+                "second": "lfoot"
+            },
+            {
+                "first": "root",
+                "second": "ltoes"
+            },
+            {
+                "first": "root",
+                "second": "rfemur"
+            },
+            {
+                "first": "root",
+                "second": "rtibia"
+            },
+            {
+                "first": "root",
+                "second": "rfoot"
+            },
+            {
+                "first": "root",
+                "second": "rtoes"
+            },
+            {
+                "first": "root",
+                "second": "upperback"
+            },
+            {
+                "first": "root",
+                "second": "thorax"
+            },
+            {
+                "first": "root",
+                "second": "lowerneck"
+            },
+            {
+                "first": "root",
+                "second": "upperneck"
+            },
+            {
+                "first": "root",
+                "second": "head"
+            },
+            {
+                "first": "root",
+                "second": "lclavicle"
+            },
+            {
+                "first": "root",
+                "second": "lhumerus"
+            },
+            {
+                "first": "root",
+                "second": "lradius"
+            },
+            {
+                "first": "root",
+                "second": "lwrist"
+            },
+            {
+                "first": "root",
+                "second": "lhand"
+            },
+            {
+                "first": "root",
+                "second": "lfingers"
+            },
+            {
+                "first": "root",
+                "second": "lthumb"
+            },
+            {
+                "first": "root",
+                "second": "rclavicle"
+            },
+            {
+                "first": "root",
+                "second": "rhumerus"
+            },
+            {
+                "first": "root",
+                "second": "rradius"
+            },
+            {
+                "first": "root",
+                "second": "rwrist"
+            },
+            {
+                "first": "root",
+                "second": "rhand"
+            },
+            {
+                "first": "root",
+                "second": "rfingers"
+            },
+            {
+                "first": "root",
+                "second": "rthumb"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "ltibia"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "lfoot"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "ltoes"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "rfemur"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "rtibia"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "rfoot"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "rtoes"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "upperback"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "thorax"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "lowerneck"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "upperneck"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "head"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "lclavicle"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "lhumerus"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "lradius"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "lwrist"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "lhand"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "lfingers"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "lthumb"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "rclavicle"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "rradius"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "rwrist"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "rhand"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "rfingers"
+            },
+            {
+                "first": "lhipjoint",
+                "second": "rthumb"
+            },
+            {
+                "first": "lfemur",
+                "second": "lfoot"
+            },
+            {
+                "first": "lfemur",
+                "second": "ltoes"
+            },
+            {
+                "first": "lfemur",
+                "second": "rhipjoint"
+            },
+            {
+                "first": "lfemur",
+                "second": "rfemur"
+            },
+            {
+                "first": "lfemur",
+                "second": "rtibia"
+            },
+            {
+                "first": "lfemur",
+                "second": "rfoot"
+            },
+            {
+                "first": "lfemur",
+                "second": "rtoes"
+            },
+            {
+                "first": "lfemur",
+                "second": "lowerback"
+            },
+            {
+                "first": "lfemur",
+                "second": "upperback"
+            },
+            {
+                "first": "lfemur",
+                "second": "thorax"
+            },
+            {
+                "first": "lfemur",
+                "second": "lowerneck"
+            },
+            {
+                "first": "lfemur",
+                "second": "upperneck"
+            },
+            {
+                "first": "lfemur",
+                "second": "head"
+            },
+            {
+                "first": "lfemur",
+                "second": "lclavicle"
+            },
+            {
+                "first": "lfemur",
+                "second": "lhumerus"
+            },
+            {
+                "first": "lfemur",
+                "second": "lradius"
+            },
+            {
+                "first": "lfemur",
+                "second": "lwrist"
+            },
+            {
+                "first": "lfemur",
+                "second": "lhand"
+            },
+            {
+                "first": "lfemur",
+                "second": "lfingers"
+            },
+            {
+                "first": "lfemur",
+                "second": "lthumb"
+            },
+            {
+                "first": "lfemur",
+                "second": "rclavicle"
+            },
+            {
+                "first": "lfemur",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lfemur",
+                "second": "rradius"
+            },
+            {
+                "first": "lfemur",
+                "second": "rwrist"
+            },
+            {
+                "first": "lfemur",
+                "second": "rhand"
+            },
+            {
+                "first": "lfemur",
+                "second": "rfingers"
+            },
+            {
+                "first": "lfemur",
+                "second": "rthumb"
+            },
+            {
+                "first": "ltibia",
+                "second": "ltoes"
+            },
+            {
+                "first": "ltibia",
+                "second": "rhipjoint"
+            },
+            {
+                "first": "ltibia",
+                "second": "rfemur"
+            },
+            {
+                "first": "ltibia",
+                "second": "rtibia"
+            },
+            {
+                "first": "ltibia",
+                "second": "rfoot"
+            },
+            {
+                "first": "ltibia",
+                "second": "rtoes"
+            },
+            {
+                "first": "ltibia",
+                "second": "lowerback"
+            },
+            {
+                "first": "ltibia",
+                "second": "upperback"
+            },
+            {
+                "first": "ltibia",
+                "second": "thorax"
+            },
+            {
+                "first": "ltibia",
+                "second": "lowerneck"
+            },
+            {
+                "first": "ltibia",
+                "second": "upperneck"
+            },
+            {
+                "first": "ltibia",
+                "second": "head"
+            },
+            {
+                "first": "ltibia",
+                "second": "lclavicle"
+            },
+            {
+                "first": "ltibia",
+                "second": "lhumerus"
+            },
+            {
+                "first": "ltibia",
+                "second": "lradius"
+            },
+            {
+                "first": "ltibia",
+                "second": "lwrist"
+            },
+            {
+                "first": "ltibia",
+                "second": "lhand"
+            },
+            {
+                "first": "ltibia",
+                "second": "lfingers"
+            },
+            {
+                "first": "ltibia",
+                "second": "lthumb"
+            },
+            {
+                "first": "ltibia",
+                "second": "rclavicle"
+            },
+            {
+                "first": "ltibia",
+                "second": "rhumerus"
+            },
+            {
+                "first": "ltibia",
+                "second": "rradius"
+            },
+            {
+                "first": "ltibia",
+                "second": "rwrist"
+            },
+            {
+                "first": "ltibia",
+                "second": "rhand"
+            },
+            {
+                "first": "ltibia",
+                "second": "rfingers"
+            },
+            {
+                "first": "ltibia",
+                "second": "rthumb"
+            },
+            {
+                "first": "lfoot",
+                "second": "rhipjoint"
+            },
+            {
+                "first": "lfoot",
+                "second": "rfemur"
+            },
+            {
+                "first": "lfoot",
+                "second": "rtibia"
+            },
+            {
+                "first": "lfoot",
+                "second": "rfoot"
+            },
+            {
+                "first": "lfoot",
+                "second": "rtoes"
+            },
+            {
+                "first": "lfoot",
+                "second": "lowerback"
+            },
+            {
+                "first": "lfoot",
+                "second": "upperback"
+            },
+            {
+                "first": "lfoot",
+                "second": "thorax"
+            },
+            {
+                "first": "lfoot",
+                "second": "lowerneck"
+            },
+            {
+                "first": "lfoot",
+                "second": "upperneck"
+            },
+            {
+                "first": "lfoot",
+                "second": "head"
+            },
+            {
+                "first": "lfoot",
+                "second": "lclavicle"
+            },
+            {
+                "first": "lfoot",
+                "second": "lhumerus"
+            },
+            {
+                "first": "lfoot",
+                "second": "lradius"
+            },
+            {
+                "first": "lfoot",
+                "second": "lwrist"
+            },
+            {
+                "first": "lfoot",
+                "second": "lhand"
+            },
+            {
+                "first": "lfoot",
+                "second": "lfingers"
+            },
+            {
+                "first": "lfoot",
+                "second": "lthumb"
+            },
+            {
+                "first": "lfoot",
+                "second": "rclavicle"
+            },
+            {
+                "first": "lfoot",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lfoot",
+                "second": "rradius"
+            },
+            {
+                "first": "lfoot",
+                "second": "rwrist"
+            },
+            {
+                "first": "lfoot",
+                "second": "rhand"
+            },
+            {
+                "first": "lfoot",
+                "second": "rfingers"
+            },
+            {
+                "first": "lfoot",
+                "second": "rthumb"
+            },
+            {
+                "first": "ltoes",
+                "second": "rhipjoint"
+            },
+            {
+                "first": "ltoes",
+                "second": "rfemur"
+            },
+            {
+                "first": "ltoes",
+                "second": "rtibia"
+            },
+            {
+                "first": "ltoes",
+                "second": "rfoot"
+            },
+            {
+                "first": "ltoes",
+                "second": "rtoes"
+            },
+            {
+                "first": "ltoes",
+                "second": "lowerback"
+            },
+            {
+                "first": "ltoes",
+                "second": "upperback"
+            },
+            {
+                "first": "ltoes",
+                "second": "thorax"
+            },
+            {
+                "first": "ltoes",
+                "second": "lowerneck"
+            },
+            {
+                "first": "ltoes",
+                "second": "upperneck"
+            },
+            {
+                "first": "ltoes",
+                "second": "head"
+            },
+            {
+                "first": "ltoes",
+                "second": "lclavicle"
+            },
+            {
+                "first": "ltoes",
+                "second": "lhumerus"
+            },
+            {
+                "first": "ltoes",
+                "second": "lradius"
+            },
+            {
+                "first": "ltoes",
+                "second": "lwrist"
+            },
+            {
+                "first": "ltoes",
+                "second": "lhand"
+            },
+            {
+                "first": "ltoes",
+                "second": "lfingers"
+            },
+            {
+                "first": "ltoes",
+                "second": "lthumb"
+            },
+            {
+                "first": "ltoes",
+                "second": "rclavicle"
+            },
+            {
+                "first": "ltoes",
+                "second": "rhumerus"
+            },
+            {
+                "first": "ltoes",
+                "second": "rradius"
+            },
+            {
+                "first": "ltoes",
+                "second": "rwrist"
+            },
+            {
+                "first": "ltoes",
+                "second": "rhand"
+            },
+            {
+                "first": "ltoes",
+                "second": "rfingers"
+            },
+            {
+                "first": "ltoes",
+                "second": "rthumb"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "rtibia"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "rfoot"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "rtoes"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "upperback"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "thorax"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "lowerneck"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "upperneck"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "head"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "lclavicle"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "lhumerus"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "lradius"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "lwrist"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "lhand"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "lfingers"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "lthumb"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "rclavicle"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "rhumerus"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "rradius"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "rwrist"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "rhand"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "rfingers"
+            },
+            {
+                "first": "rhipjoint",
+                "second": "rthumb"
+            },
+            {
+                "first": "rfemur",
+                "second": "rfoot"
+            },
+            {
+                "first": "rfemur",
+                "second": "rtoes"
+            },
+            {
+                "first": "rfemur",
+                "second": "lowerback"
+            },
+            {
+                "first": "rfemur",
+                "second": "upperback"
+            },
+            {
+                "first": "rfemur",
+                "second": "thorax"
+            },
+            {
+                "first": "rfemur",
+                "second": "lowerneck"
+            },
+            {
+                "first": "rfemur",
+                "second": "upperneck"
+            },
+            {
+                "first": "rfemur",
+                "second": "head"
+            },
+            {
+                "first": "rfemur",
+                "second": "lclavicle"
+            },
+            {
+                "first": "rfemur",
+                "second": "lhumerus"
+            },
+            {
+                "first": "rfemur",
+                "second": "lradius"
+            },
+            {
+                "first": "rfemur",
+                "second": "lwrist"
+            },
+            {
+                "first": "rfemur",
+                "second": "lhand"
+            },
+            {
+                "first": "rfemur",
+                "second": "lfingers"
+            },
+            {
+                "first": "rfemur",
+                "second": "lthumb"
+            },
+            {
+                "first": "rfemur",
+                "second": "rclavicle"
+            },
+            {
+                "first": "rfemur",
+                "second": "rhumerus"
+            },
+            {
+                "first": "rfemur",
+                "second": "rradius"
+            },
+            {
+                "first": "rfemur",
+                "second": "rwrist"
+            },
+            {
+                "first": "rfemur",
+                "second": "rhand"
+            },
+            {
+                "first": "rfemur",
+                "second": "rfingers"
+            },
+            {
+                "first": "rfemur",
+                "second": "rthumb"
+            },
+            {
+                "first": "rtibia",
+                "second": "rtoes"
+            },
+            {
+                "first": "rtibia",
+                "second": "lowerback"
+            },
+            {
+                "first": "rtibia",
+                "second": "upperback"
+            },
+            {
+                "first": "rtibia",
+                "second": "thorax"
+            },
+            {
+                "first": "rtibia",
+                "second": "lowerneck"
+            },
+            {
+                "first": "rtibia",
+                "second": "upperneck"
+            },
+            {
+                "first": "rtibia",
+                "second": "head"
+            },
+            {
+                "first": "rtibia",
+                "second": "lclavicle"
+            },
+            {
+                "first": "rtibia",
+                "second": "lhumerus"
+            },
+            {
+                "first": "rtibia",
+                "second": "lradius"
+            },
+            {
+                "first": "rtibia",
+                "second": "lwrist"
+            },
+            {
+                "first": "rtibia",
+                "second": "lhand"
+            },
+            {
+                "first": "rtibia",
+                "second": "lfingers"
+            },
+            {
+                "first": "rtibia",
+                "second": "lthumb"
+            },
+            {
+                "first": "rtibia",
+                "second": "rclavicle"
+            },
+            {
+                "first": "rtibia",
+                "second": "rhumerus"
+            },
+            {
+                "first": "rtibia",
+                "second": "rradius"
+            },
+            {
+                "first": "rtibia",
+                "second": "rwrist"
+            },
+            {
+                "first": "rtibia",
+                "second": "rhand"
+            },
+            {
+                "first": "rtibia",
+                "second": "rfingers"
+            },
+            {
+                "first": "rtibia",
+                "second": "rthumb"
+            },
+            {
+                "first": "rfoot",
+                "second": "lowerback"
+            },
+            {
+                "first": "rfoot",
+                "second": "upperback"
+            },
+            {
+                "first": "rfoot",
+                "second": "thorax"
+            },
+            {
+                "first": "rfoot",
+                "second": "lowerneck"
+            },
+            {
+                "first": "rfoot",
+                "second": "upperneck"
+            },
+            {
+                "first": "rfoot",
+                "second": "head"
+            },
+            {
+                "first": "rfoot",
+                "second": "lclavicle"
+            },
+            {
+                "first": "rfoot",
+                "second": "lhumerus"
+            },
+            {
+                "first": "rfoot",
+                "second": "lradius"
+            },
+            {
+                "first": "rfoot",
+                "second": "lwrist"
+            },
+            {
+                "first": "rfoot",
+                "second": "lhand"
+            },
+            {
+                "first": "rfoot",
+                "second": "lfingers"
+            },
+            {
+                "first": "rfoot",
+                "second": "lthumb"
+            },
+            {
+                "first": "rfoot",
+                "second": "rclavicle"
+            },
+            {
+                "first": "rfoot",
+                "second": "rhumerus"
+            },
+            {
+                "first": "rfoot",
+                "second": "rradius"
+            },
+            {
+                "first": "rfoot",
+                "second": "rwrist"
+            },
+            {
+                "first": "rfoot",
+                "second": "rhand"
+            },
+            {
+                "first": "rfoot",
+                "second": "rfingers"
+            },
+            {
+                "first": "rfoot",
+                "second": "rthumb"
+            },
+            {
+                "first": "rtoes",
+                "second": "lowerback"
+            },
+            {
+                "first": "rtoes",
+                "second": "upperback"
+            },
+            {
+                "first": "rtoes",
+                "second": "thorax"
+            },
+            {
+                "first": "rtoes",
+                "second": "lowerneck"
+            },
+            {
+                "first": "rtoes",
+                "second": "upperneck"
+            },
+            {
+                "first": "rtoes",
+                "second": "head"
+            },
+            {
+                "first": "rtoes",
+                "second": "lclavicle"
+            },
+            {
+                "first": "rtoes",
+                "second": "lhumerus"
+            },
+            {
+                "first": "rtoes",
+                "second": "lradius"
+            },
+            {
+                "first": "rtoes",
+                "second": "lwrist"
+            },
+            {
+                "first": "rtoes",
+                "second": "lhand"
+            },
+            {
+                "first": "rtoes",
+                "second": "lfingers"
+            },
+            {
+                "first": "rtoes",
+                "second": "lthumb"
+            },
+            {
+                "first": "rtoes",
+                "second": "rclavicle"
+            },
+            {
+                "first": "rtoes",
+                "second": "rhumerus"
+            },
+            {
+                "first": "rtoes",
+                "second": "rradius"
+            },
+            {
+                "first": "rtoes",
+                "second": "rwrist"
+            },
+            {
+                "first": "rtoes",
+                "second": "rhand"
+            },
+            {
+                "first": "rtoes",
+                "second": "rfingers"
+            },
+            {
+                "first": "rtoes",
+                "second": "rthumb"
+            },
+            {
+                "first": "lowerback",
+                "second": "thorax"
+            },
+            {
+                "first": "lowerback",
+                "second": "lowerneck"
+            },
+            {
+                "first": "lowerback",
+                "second": "upperneck"
+            },
+            {
+                "first": "lowerback",
+                "second": "head"
+            },
+            {
+                "first": "lowerback",
+                "second": "lclavicle"
+            },
+            {
+                "first": "lowerback",
+                "second": "lhumerus"
+            },
+            {
+                "first": "lowerback",
+                "second": "lradius"
+            },
+            {
+                "first": "lowerback",
+                "second": "lwrist"
+            },
+            {
+                "first": "lowerback",
+                "second": "lhand"
+            },
+            {
+                "first": "lowerback",
+                "second": "lfingers"
+            },
+            {
+                "first": "lowerback",
+                "second": "lthumb"
+            },
+            {
+                "first": "lowerback",
+                "second": "rclavicle"
+            },
+            {
+                "first": "lowerback",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lowerback",
+                "second": "rradius"
+            },
+            {
+                "first": "lowerback",
+                "second": "rwrist"
+            },
+            {
+                "first": "lowerback",
+                "second": "rhand"
+            },
+            {
+                "first": "lowerback",
+                "second": "rfingers"
+            },
+            {
+                "first": "lowerback",
+                "second": "rthumb"
+            },
+            {
+                "first": "upperback",
+                "second": "lowerneck"
+            },
+            {
+                "first": "upperback",
+                "second": "upperneck"
+            },
+            {
+                "first": "upperback",
+                "second": "head"
+            },
+            {
+                "first": "upperback",
+                "second": "lclavicle"
+            },
+            {
+                "first": "upperback",
+                "second": "lhumerus"
+            },
+            {
+                "first": "upperback",
+                "second": "lradius"
+            },
+            {
+                "first": "upperback",
+                "second": "lwrist"
+            },
+            {
+                "first": "upperback",
+                "second": "lhand"
+            },
+            {
+                "first": "upperback",
+                "second": "lfingers"
+            },
+            {
+                "first": "upperback",
+                "second": "lthumb"
+            },
+            {
+                "first": "upperback",
+                "second": "rclavicle"
+            },
+            {
+                "first": "upperback",
+                "second": "rhumerus"
+            },
+            {
+                "first": "upperback",
+                "second": "rradius"
+            },
+            {
+                "first": "upperback",
+                "second": "rwrist"
+            },
+            {
+                "first": "upperback",
+                "second": "rhand"
+            },
+            {
+                "first": "upperback",
+                "second": "rfingers"
+            },
+            {
+                "first": "upperback",
+                "second": "rthumb"
+            },
+            {
+                "first": "thorax",
+                "second": "upperneck"
+            },
+            {
+                "first": "thorax",
+                "second": "head"
+            },
+            {
+                "first": "thorax",
+                "second": "lhumerus"
+            },
+            {
+                "first": "thorax",
+                "second": "lradius"
+            },
+            {
+                "first": "thorax",
+                "second": "lwrist"
+            },
+            {
+                "first": "thorax",
+                "second": "lhand"
+            },
+            {
+                "first": "thorax",
+                "second": "lfingers"
+            },
+            {
+                "first": "thorax",
+                "second": "lthumb"
+            },
+            {
+                "first": "thorax",
+                "second": "rhumerus"
+            },
+            {
+                "first": "thorax",
+                "second": "rradius"
+            },
+            {
+                "first": "thorax",
+                "second": "rwrist"
+            },
+            {
+                "first": "thorax",
+                "second": "rhand"
+            },
+            {
+                "first": "thorax",
+                "second": "rfingers"
+            },
+            {
+                "first": "thorax",
+                "second": "rthumb"
+            },
+            {
+                "first": "lowerneck",
+                "second": "head"
+            },
+            {
+                "first": "lowerneck",
+                "second": "lhumerus"
+            },
+            {
+                "first": "lowerneck",
+                "second": "lradius"
+            },
+            {
+                "first": "lowerneck",
+                "second": "lwrist"
+            },
+            {
+                "first": "lowerneck",
+                "second": "lhand"
+            },
+            {
+                "first": "lowerneck",
+                "second": "lfingers"
+            },
+            {
+                "first": "lowerneck",
+                "second": "lthumb"
+            },
+            {
+                "first": "lowerneck",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lowerneck",
+                "second": "rradius"
+            },
+            {
+                "first": "lowerneck",
+                "second": "rwrist"
+            },
+            {
+                "first": "lowerneck",
+                "second": "rhand"
+            },
+            {
+                "first": "lowerneck",
+                "second": "rfingers"
+            },
+            {
+                "first": "lowerneck",
+                "second": "rthumb"
+            },
+            {
+                "first": "upperneck",
+                "second": "lclavicle"
+            },
+            {
+                "first": "upperneck",
+                "second": "lhumerus"
+            },
+            {
+                "first": "upperneck",
+                "second": "lradius"
+            },
+            {
+                "first": "upperneck",
+                "second": "lwrist"
+            },
+            {
+                "first": "upperneck",
+                "second": "lhand"
+            },
+            {
+                "first": "upperneck",
+                "second": "lfingers"
+            },
+            {
+                "first": "upperneck",
+                "second": "lthumb"
+            },
+            {
+                "first": "upperneck",
+                "second": "rclavicle"
+            },
+            {
+                "first": "upperneck",
+                "second": "rhumerus"
+            },
+            {
+                "first": "upperneck",
+                "second": "rradius"
+            },
+            {
+                "first": "upperneck",
+                "second": "rwrist"
+            },
+            {
+                "first": "upperneck",
+                "second": "rhand"
+            },
+            {
+                "first": "upperneck",
+                "second": "rfingers"
+            },
+            {
+                "first": "upperneck",
+                "second": "rthumb"
+            },
+            {
+                "first": "head",
+                "second": "lclavicle"
+            },
+            {
+                "first": "head",
+                "second": "lhumerus"
+            },
+            {
+                "first": "head",
+                "second": "lradius"
+            },
+            {
+                "first": "head",
+                "second": "lwrist"
+            },
+            {
+                "first": "head",
+                "second": "lhand"
+            },
+            {
+                "first": "head",
+                "second": "lfingers"
+            },
+            {
+                "first": "head",
+                "second": "lthumb"
+            },
+            {
+                "first": "head",
+                "second": "rclavicle"
+            },
+            {
+                "first": "head",
+                "second": "rhumerus"
+            },
+            {
+                "first": "head",
+                "second": "rradius"
+            },
+            {
+                "first": "head",
+                "second": "rwrist"
+            },
+            {
+                "first": "head",
+                "second": "rhand"
+            },
+            {
+                "first": "head",
+                "second": "rfingers"
+            },
+            {
+                "first": "head",
+                "second": "rthumb"
+            },
+            {
+                "first": "lclavicle",
+                "second": "lradius"
+            },
+            {
+                "first": "lclavicle",
+                "second": "lwrist"
+            },
+            {
+                "first": "lclavicle",
+                "second": "lhand"
+            },
+            {
+                "first": "lclavicle",
+                "second": "lfingers"
+            },
+            {
+                "first": "lclavicle",
+                "second": "lthumb"
+            },
+            {
+                "first": "lclavicle",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lclavicle",
+                "second": "rradius"
+            },
+            {
+                "first": "lclavicle",
+                "second": "rwrist"
+            },
+            {
+                "first": "lclavicle",
+                "second": "rhand"
+            },
+            {
+                "first": "lclavicle",
+                "second": "rfingers"
+            },
+            {
+                "first": "lclavicle",
+                "second": "rthumb"
+            },
+            {
+                "first": "lhumerus",
+                "second": "lwrist"
+            },
+            {
+                "first": "lhumerus",
+                "second": "lhand"
+            },
+            {
+                "first": "lhumerus",
+                "second": "lfingers"
+            },
+            {
+                "first": "lhumerus",
+                "second": "lthumb"
+            },
+            {
+                "first": "lhumerus",
+                "second": "rclavicle"
+            },
+            {
+                "first": "lhumerus",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lhumerus",
+                "second": "rradius"
+            },
+            {
+                "first": "lhumerus",
+                "second": "rwrist"
+            },
+            {
+                "first": "lhumerus",
+                "second": "rhand"
+            },
+            {
+                "first": "lhumerus",
+                "second": "rfingers"
+            },
+            {
+                "first": "lhumerus",
+                "second": "rthumb"
+            },
+            {
+                "first": "lradius",
+                "second": "lhand"
+            },
+            {
+                "first": "lradius",
+                "second": "lfingers"
+            },
+            {
+                "first": "lradius",
+                "second": "lthumb"
+            },
+            {
+                "first": "lradius",
+                "second": "rclavicle"
+            },
+            {
+                "first": "lradius",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lradius",
+                "second": "rradius"
+            },
+            {
+                "first": "lradius",
+                "second": "rwrist"
+            },
+            {
+                "first": "lradius",
+                "second": "rhand"
+            },
+            {
+                "first": "lradius",
+                "second": "rfingers"
+            },
+            {
+                "first": "lradius",
+                "second": "rthumb"
+            },
+            {
+                "first": "lwrist",
+                "second": "lfingers"
+            },
+            {
+                "first": "lwrist",
+                "second": "lthumb"
+            },
+            {
+                "first": "lwrist",
+                "second": "rclavicle"
+            },
+            {
+                "first": "lwrist",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lwrist",
+                "second": "rradius"
+            },
+            {
+                "first": "lwrist",
+                "second": "rwrist"
+            },
+            {
+                "first": "lwrist",
+                "second": "rhand"
+            },
+            {
+                "first": "lwrist",
+                "second": "rfingers"
+            },
+            {
+                "first": "lwrist",
+                "second": "rthumb"
+            },
+            {
+                "first": "lhand",
+                "second": "rclavicle"
+            },
+            {
+                "first": "lhand",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lhand",
+                "second": "rradius"
+            },
+            {
+                "first": "lhand",
+                "second": "rwrist"
+            },
+            {
+                "first": "lhand",
+                "second": "rhand"
+            },
+            {
+                "first": "lhand",
+                "second": "rfingers"
+            },
+            {
+                "first": "lhand",
+                "second": "rthumb"
+            },
+            {
+                "first": "lfingers",
+                "second": "rclavicle"
+            },
+            {
+                "first": "lfingers",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lfingers",
+                "second": "rradius"
+            },
+            {
+                "first": "lfingers",
+                "second": "rwrist"
+            },
+            {
+                "first": "lfingers",
+                "second": "rhand"
+            },
+            {
+                "first": "lfingers",
+                "second": "rfingers"
+            },
+            {
+                "first": "lfingers",
+                "second": "rthumb"
+            },
+            {
+                "first": "lthumb",
+                "second": "rclavicle"
+            },
+            {
+                "first": "lthumb",
+                "second": "rhumerus"
+            },
+            {
+                "first": "lthumb",
+                "second": "rradius"
+            },
+            {
+                "first": "lthumb",
+                "second": "rwrist"
+            },
+            {
+                "first": "lthumb",
+                "second": "rhand"
+            },
+            {
+                "first": "lthumb",
+                "second": "rfingers"
+            },
+            {
+                "first": "lthumb",
+                "second": "rthumb"
+            },
+            {
+                "first": "rclavicle",
+                "second": "rradius"
+            },
+            {
+                "first": "rclavicle",
+                "second": "rwrist"
+            },
+            {
+                "first": "rclavicle",
+                "second": "rhand"
+            },
+            {
+                "first": "rclavicle",
+                "second": "rfingers"
+            },
+            {
+                "first": "rclavicle",
+                "second": "rthumb"
+            },
+            {
+                "first": "rhumerus",
+                "second": "rwrist"
+            },
+            {
+                "first": "rhumerus",
+                "second": "rhand"
+            },
+            {
+                "first": "rhumerus",
+                "second": "rfingers"
+            },
+            {
+                "first": "rhumerus",
+                "second": "rthumb"
+            },
+            {
+                "first": "rradius",
+                "second": "rhand"
+            },
+            {
+                "first": "rradius",
+                "second": "rfingers"
+            },
+            {
+                "first": "rradius",
+                "second": "rthumb"
+            },
+            {
+                "first": "rwrist",
+                "second": "rfingers"
+            },
+            {
+                "first": "rwrist",
+                "second": "rthumb"
+            }
+        ],
+        "dt": 0.015,
+        "substeps": 8,
+        "frozen": {
+            "all": false
+        },
+        "dynamicsMode": "legacy_spring",
+        "solverScaleCollide": 1.0,
+        "forces": [],
+        "elasticity": 0.0,
+        "defaults": [],
+        "colliderCutoff": 0,
+        "meshGeometries": []
+    },
+    "pos": [
+        [
+            [
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.0,
+                0.0,
+                0.10000000149011613
+            ],
+            [
+                0.10193700343370438,
+                -0.09180740267038345,
+                0.14944609999656677
+            ],
+            [
+                0.24040469567489464,
+                -0.4722447726940737,
+                0.15808018746469246
+            ],
+            [
+                0.3825783697573889,
+                -0.8628642578540906,
+                0.15614451839910443
+            ],
+            [
+                0.3906238399012602,
+                -0.8849690351678272,
+                0.3124057683807954
+            ],
+            [
+                0.0,
+                0.0,
+                0.10000000149011613
+            ],
+            [
+                -0.10193700343370438,
+                -0.09180740267038345,
+                0.14944609999656677
+            ],
+            [
+                -0.24040469567489464,
+                -0.4722447726940737,
+                0.15808018746469246
+            ],
+            [
+                -0.3825783697573889,
+                -0.8628642578540906,
+                0.15614451839910443
+            ],
+            [
+                -0.3906238399012602,
+                -0.8849690351678272,
+                0.3124057683807954
+            ],
+            [
+                0.0,
+                0.0,
+                0.10000000149011613
+            ],
+            [
+                0.0005658619920723141,
+                0.11324284534077932,
+                0.0923781620985276
+            ],
+            [
+                0.0010783899924717846,
+                0.22679241675904954,
+                0.09417975581853405
+            ],
+            [
+                0.0010783899924717846,
+                0.3406765190870087,
+                0.10016140244082317
+            ],
+            [
+                -0.002223040035460145,
+                0.4309833522155335,
+                0.11222539967767625
+            ],
+            [
+                -0.0012212900328449914,
+                0.5610453206469095,
+                0.11020819932010181
+            ],
+            [
+                0.0010783899924717846,
+                0.3406765190870087,
+                0.10016140244082317
+            ],
+            [
+                0.18106186985613054,
+                0.43054513318668963,
+                0.11217698931425985
+            ],
+            [
+                0.45790000160498223,
+                0.4311602456194944,
+                0.11370125832842326
+            ],
+            [
+                0.6393528585884393,
+                0.4337312959717117,
+                0.11855626829405005
+            ],
+            [
+                0.730078884933091,
+                0.435016815449699,
+                0.1209837625168892
+            ],
+            [
+                0.8050459468489465,
+                0.43587343780262966,
+                0.12299285765216328
+            ],
+            [
+                0.7294047026214914,
+                0.43541213194612505,
+                0.14597154396512568
+            ],
+            [
+                0.0010783899924717846,
+                0.3406765190870087,
+                0.10016140244082317
+            ],
+            [
+                -0.17890508987118697,
+                0.43054513318668963,
+                0.11217698931425985
+            ],
+            [
+                -0.45574322162003866,
+                0.4311602456194944,
+                0.11370125832842326
+            ],
+            [
+                -0.6371960786034957,
+                0.4337312959717117,
+                0.11855626829405005
+            ],
+            [
+                -0.7279221049481475,
+                0.435016815449699,
+                0.12098376251688922
+            ],
+            [
+                -0.8028891668640029,
+                0.43587343780262966,
+                0.12299285765216332
+            ],
+            [
+                -0.7272479226365478,
+                0.43541213194612505,
+                0.1459715439651257
+            ],
+            [
+                0.0,
+                0.0,
+                0.0
+            ]
+        ]
+    ],
+    "rot": [
+        [
+            [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.9847518194618579,
+                -0.010499450767448796,
+                -0.00185133411039524,
+                0.17363809536548727
+            ],
+            [
+                0.9848051213860021,
+                0.0022928784876653577,
+                0.00040429582929867535,
+                0.17364749392094542
+            ],
+            [
+                0.6980279522137649,
+                -0.694696597320093,
+                -0.12249359852055394,
+                0.12308100552736687
+            ],
+            [
+                0.6943147490831278,
+                -0.6984077702928932,
+                -0.12314797761773708,
+                0.12242626845903494
+            ],
+            [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.9847518194618579,
+                -0.010499450767448796,
+                0.00185133411039524,
+                -0.17363809536548727
+            ],
+            [
+                0.9848051213860021,
+                0.0022928784876653577,
+                -0.00040429582929867535,
+                -0.17364749392094542
+            ],
+            [
+                0.6980279522137649,
+                -0.694696597320093,
+                0.12249359852055394,
+                -0.12308100552736687
+            ],
+            [
+                0.6943147490831278,
+                -0.6984077702928932,
+                0.12314797761773708,
+                -0.12242626845903494
+            ],
+            [
+                0.9999981876636994,
+                0.0019038564327857397,
+                0.0,
+                0.0
+            ],
+            [
+                0.9999927506613667,
+                0.003807705964715231,
+                0.0,
+                0.0
+            ],
+            [
+                0.9999836890127093,
+                0.005711541694957238,
+                0.0,
+                0.0
+            ],
+            [
+                0.9999710027505726,
+                0.007615356722730553,
+                0.0,
+                0.0
+            ],
+            [
+                0.9999546919209402,
+                0.009519144147329007,
+                0.0,
+                0.0
+            ],
+            [
+                0.9999347565829335,
+                0.011422897068146483,
+                0.0,
+                0.0
+            ],
+            [
+                0.9999833990429335,
+                0.005711540038755759,
+                -0.0007615313572655042,
+                -4.349589045130938e-06
+            ],
+            [
+                0.17702651501166147,
+                0.6843104857099316,
+                -0.6837767706723195,
+                0.18119078348304002
+            ],
+            [
+                0.16867546355968127,
+                0.6864166488821953,
+                -0.681518311843824,
+                0.18950874056836503
+            ],
+            [
+                -0.49915358019899403,
+                0.5141297009564777,
+                -0.4937249484885846,
+                -0.4926987205269298
+            ],
+            [
+                -0.49915358019899403,
+                0.5141297009564777,
+                -0.4937249484885846,
+                -0.4926987205269298
+            ],
+            [
+                -0.5026656260607895,
+                0.5106964993104861,
+                -0.4970902370450893,
+                -0.48930322929997727
+            ],
+            [
+                -0.654238209981306,
+                0.6594678228132718,
+                -0.2611974526773328,
+                -0.2623936851169488
+            ],
+            [
+                0.9999833990429335,
+                0.005711540038755759,
+                0.0007615313572655042,
+                4.349589045130938e-06
+            ],
+            [
+                0.17702651501166147,
+                0.6843104857099316,
+                0.6837767706723195,
+                -0.18119078348304002
+            ],
+            [
+                0.16867546355968127,
+                0.6864166488821953,
+                0.681518311843824,
+                -0.18950874056836503
+            ],
+            [
+                0.4991535801989941,
+                -0.5141297009564778,
+                -0.4937249484885846,
+                -0.4926987205269297
+            ],
+            [
+                0.4991535801989941,
+                -0.5141297009564778,
+                -0.4937249484885846,
+                -0.4926987205269297
+            ],
+            [
+                0.5026656260607895,
+                -0.5106964993104862,
+                -0.4970902370450893,
+                -0.48930322929997716
+            ],
+            [
+                0.654238209981306,
+                -0.6594678228132718,
+                -0.26119745267733274,
+                -0.2623936851169487
+            ],
+            [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        ]
+    ],
+    "debug": false,
+    "has_contact_debug": false
+}
