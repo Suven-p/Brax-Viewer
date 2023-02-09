@@ -1,13 +1,18 @@
 // @ts-nocheck
 
+import * as THREE from 'three';
 import { Viewer } from './viewer';
 import system from './braxConfig2.json';
+import xipos from '../dataset/xipos.json';
+import ximat from '../dataset/ximat.json';
 import { mocapMotion } from '../dataset/mocapmotion';
 
 declare global {
     interface Window {
         system: any;
         mocapMotion: any;
+        xipos: any;
+        ximat: any;
     }
 }
 
@@ -15,30 +20,29 @@ const domElement = document.getElementById('brax-viewer');
 window.system = system;
 window.mocapMotion0 = mocapMotion;
 window.mocapMotion0.forEach((motion) => {
-    // motion.splice(0, 1);
     motion.splice(0, 1);
     motion.splice(19, 1);
 });
-system.pos = window.mocapMotion0;
-// for (let i = 0; i < mocapMotion0.length - 1; i++) {
-//     system.rot.push(system.rot[0]);
-// }
+window.xipos = xipos.xipos;
+window.xipos.forEach((motion) => {
+    motion.splice(1, 1);
+    motion.splice(19, 1);
+});
+window.ximat = ximat.ximat.map((motion) => {
+    motion.splice(1, 1);
+    motion.splice(19, 1);
+    return motion.map(body => {
+        const m = new THREE.Matrix4();
+        m.fromArray([body[0], body[1], body[2], 0, body[3], body[4], body[5], 0, body[6], body[7], body[8], 0, 0, 0, 0, 1]);
+        const q = new THREE.Quaternion();
+        q.setFromRotationMatrix(m);
+        return [q.w, q.x, q.y, q.z];
+    });
+});
+system.pos = window.xipos;
+system.rot = window.ximat;
 
-// system.config.bodies.forEach(body => {
-//     if (body.colliders && body.colliders.length > 0) {
-//         body.colliders.forEach(collider => {
-//             if (!collider.rotation) {
-//                 collider.rotation = { x: 0.0, y: 0.0, z: 0.0 };
-//             }
-//             // collider.rotation.x += 90.0;
-//             if (!collider.position) {
-//                 collider.position = { x: 0.0, y: 0.0, z: 0.0 };
-//             }
-//             const old_y = collider.position.y;
-//             collider.position.z = old_y;
-//         });
-//     }
-// });
+
 
 
 // system.config.bodies.push({
@@ -46,7 +50,7 @@ system.pos = window.mocapMotion0;
 //     "colliders": [
 //         {
 //             "position": {
-//                 "x": 2.0,
+//                 "x": 1.0,
 //                 "y": 0.0,
 //                 "z": 0.05
 //             },
@@ -67,22 +71,21 @@ system.pos = window.mocapMotion0;
 //         "y": 1.0,
 //         "z": 1.0
 //     },
-//     "frozen": {
-//         "position": {
-//             "x": 1.0,
-//             "y": 1.0,
-//             "z": 1.0
-//         },
-//         "rotation": {
-//             "x": 1.0,
-//             "y": 1.0,
-//             "z": 1.0
-//         },
-//         "all": true
-//     },
 //     "mass": 10.0
 // });
-
-// system.pos[0].push([2, 0, 0.05]);
+// system.pos[0].push([1, 0, 0.05]);
 // system.rot[0].push([1, 0, 0, 0]);
+
+// Make target move diagonally
+// const length = 5;
+// const time = 2.0;
+// const timeStep = system.config.dt / 10;
+// const numSteps = Math.round(time / timeStep);
+// for (let i = 0; i < numSteps; i += 1) {
+//     system.pos.push(JSON.parse(JSON.stringify(system.pos[i])));
+//     system.rot.push(JSON.parse(JSON.stringify(system.rot[0])));
+//     system.pos[i + 1][system.pos[0].length - 1][0] += (length / numSteps);
+//     system.pos[system.pos.length - 1][system.pos[0].length - 1][1] += (length / numSteps);
+// }
+
 var viewer = new Viewer(domElement, system);
